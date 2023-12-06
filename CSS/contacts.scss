@@ -1,0 +1,15 @@
+@import url(main.scss);
+$dark-red: #8B0000;
+$orange: #FFA500;
+
+h1 {
+  color: $dark-red;
+}
+
+ul {
+  li {
+    a {
+      color: $orange;
+    }
+  }
+}

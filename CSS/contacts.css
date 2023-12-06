@@ -1,0 +1,8 @@
+@import url(main.scss);
+h1 {
+  color: #8B0000;
+}
+
+ul li a {
+  color: #FFA500;
+}

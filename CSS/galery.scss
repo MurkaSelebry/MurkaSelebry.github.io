@@ -1,0 +1,29 @@
+$dark-red: #8b0000;
+$orange: #ff8c00;
+
+h1 {
+  color: $dark-red;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  background-color: $orange;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  
+  h2, p {
+    color: $dark-red;
+  }
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+}

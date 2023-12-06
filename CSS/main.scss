@@ -1,0 +1,107 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+// styles for headings and text
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+// styles for navbar
+nav {
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .navbar-nav {
+    li {
+      a {
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #333;
+        padding: 0.5rem 1rem;
+
+        &:hover,
+        &:focus {
+          color: #007bff;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .active {
+      a {
+        color: #007bff;
+      }
+    }
+  }
+}
+
+// styles for jumbotron
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 4rem 2rem;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+
+// styles for container
+.container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      margin-bottom: 0.5rem;
+      padding-left: 1rem;
+
+      &:before {
+        content: "\2022";
+        color: #007bff;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+    }
+  }
+}
+
+// styles for footer
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+
+  p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+}
